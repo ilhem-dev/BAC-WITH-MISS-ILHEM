@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3: It's high time / It's about time - Miss Ilhem BAC English</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1>📚 Miss Ilhem – BAC English Help</h1>
+            <p>Interactive Grammar Lessons for Baccalaureate Students</p>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <h2>Grammar Lessons</h2>
+            <ul class="lesson-list">
+                <li>
+                    <a href="lesson1.html" class="lesson-link">
+                        <span class="lesson-number">1</span>
+                        <span class="lesson-title">I wish / If only</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson2.html" class="lesson-link">
+                        <span class="lesson-number">2</span>
+                        <span class="lesson-title">If / Providing that</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson3.html" class="lesson-link" style="background: var(--accent-color); border-left-color: var(--primary-color);">
+                        <span class="lesson-number">3</span>
+                        <span class="lesson-title">It's high time / It's about time</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson4.html" class="lesson-link">
+                        <span class="lesson-number">4</span>
+                        <span class="lesson-title">Cause and Effect</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson5.html" class="lesson-link">
+                        <span class="lesson-number">5</span>
+                        <span class="lesson-title">So ... that / Such ... that</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson6.html" class="lesson-link">
+                        <span class="lesson-number">6</span>
+                        <span class="lesson-title">Reported Speech</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson7.html" class="lesson-link">
+                        <span class="lesson-number">7</span>
+                        <span class="lesson-title">Expressing Concessions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson8.html" class="lesson-link">
+                        <span class="lesson-number">8</span>
+                        <span class="lesson-title">Expressing Purpose</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <!-- Lesson Header -->
+            <div class="lesson-header">
+                <h1>Lesson 3: It's high time / It's about time</h1>
+                <p>Express urgency and overdue actions</p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="lesson-nav">
+                <a href="index.html" class="back-btn">← Back to Home</a>
+            </div>
+
+            <!-- Lesson Content -->
+            <div class="lesson-content">
+                <!-- PDF Section -->
+                <section class="pdf-section">
+                    <h2>📄 Lesson Explanation</h2>
+                    
+                    <!-- Replace with your PDF file -->
+                    <div class="pdf-placeholder">
+                        <div class="pdf-placeholder-icon">📄</div>
+                        <h3>PDF Explanation</h3>
+                            <iframe src="its high time.pdf" width="100%" height="900px">
+                             This browser does not support PDFs. Please download the PDF to view it:
+                                <a href="its high time.pdf">Download PDF</a>.
+                            </iframe>
+                    </div>
+                    
+                    <!-- Uncomment when you have the PDF -->
+                    <!--
+                    <iframe 
+                        src="lesson3-explanation.pdf" 
+                        class="pdf-embed"
+                        title="It's high time / It's about time - Grammar Explanation">
+                        <p>Your browser doesn't support PDF embedding. 
+                           <a href="lesson3-explanation.pdf" target="_blank">Download the PDF</a>
+                        </p>
+                    </iframe>
+                    -->
+                </section>
+
+                <!-- EXERCISE 1: CONVERTING TO "IT'S HIGH TIME" -->
+                <section class="exercise-section">
+                    <h2>⏰ Exercise 1: Converting to "It's high time"</h2>
+                    <p>Rewrite sentence B so that it means the same as sentence A using "It's high time" or "It's about time":</p>
+
+                    <!-- Exercise 1 Item 1 -->
+                    <div class="exercise-item">
+                        <h4>Item 1</h4>
+                        <p><strong>A:</strong> You should stop eating unhealthy food.</p>
+                        <p><strong>B:</strong> It's high time <input type="text" id="ex1-q1" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(1)">Check Answer</button>
+                        <div id="ex1-result1" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 2 -->
+                    <div class="exercise-item">
+                        <h4>Item 2</h4>
+                        <p><strong>A:</strong> She had better start a healthy diet.</p>
+                        <p><strong>B:</strong> It's high time <input type="text" id="ex1-q2" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(2)">Check Answer</button>
+                        <div id="ex1-result2" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 3 -->
+                    <div class="exercise-item">
+                        <h4>Item 3</h4>
+                        <p><strong>A:</strong> I feel strongly that I should go to the gym regularly.</p>
+                        <p><strong>B:</strong> It's about time <input type="text" id="ex1-q3" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(3)">Check Answer</button>
+                        <div id="ex1-result3" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 4 -->
+                    <div class="exercise-item">
+                        <h4>Item 4</h4>
+                        <p><strong>A:</strong> Governments should fight corruption.</p>
+                        <p><strong>B:</strong> It's high time <input type="text" id="ex1-q4" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(4)">Check Answer</button>
+                        <div id="ex1-result4" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 5 -->
+                    <div class="exercise-item">
+                        <h4>Item 5</h4>
+                        <p><strong>A:</strong> Bureaucracy had better stop.</p>
+                        <p><strong>B:</strong> It's high time <input type="text" id="ex1-q5" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(5)">Check Answer</button>
+                        <div id="ex1-result5" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 6 -->
+                    <div class="exercise-item">
+                        <h4>Item 6</h4>
+                        <p><strong>A:</strong> Police must take their job more seriously.</p>
+                        <p><strong>B:</strong> It's high time <input type="text" id="ex1-q6" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(6)">Check Answer</button>
+                        <div id="ex1-result6" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 7 -->
+                    <div class="exercise-item">
+                        <h4>Item 7</h4>
+                        <p><strong>A:</strong> I feel strongly that you should establish a strong ethical foundation.</p>
+                        <p><strong>B:</strong> It's high time <input type="text" id="ex1-q7" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(7)">Check Answer</button>
+                        <div id="ex1-result7" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 8 -->
+                    <div class="exercise-item">
+                        <h4>Item 8</h4>
+                        <p><strong>A:</strong> The government had better arrest scammers.</p>
+                        <p><strong>B:</strong> It's about time <input type="text" id="ex1-q8" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(8)">Check Answer</button>
+                        <div id="ex1-result8" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 9 -->
+                    <div class="exercise-item">
+                        <h4>Item 9</h4>
+                        <p><strong>A:</strong> We ought to teach students logical thinking.</p>
+                        <p><strong>B:</strong> It's high time <input type="text" id="ex1-q9" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(9)">Check Answer</button>
+                        <div id="ex1-result9" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 10 -->
+                    <div class="exercise-item">
+                        <h4>Item 10</h4>
+                        <p><strong>A:</strong> Muslim countries need to reduce high unemployment rates.</p>
+                        <p><strong>B:</strong> It's high time <input type="text" id="ex1-q10" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(10)">Check Answer</button>
+                        <div id="ex1-result10" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Show All Answers Button for Exercise 1 -->
+                    <div class="exercise-controls">
+                        <button class="show-all-btn" onclick="showAllAnswersEx1()">Show All Answers</button>
+                        <button class="reset-btn" onclick="resetExercise1()">Reset Exercise</button>
+                    </div>
+                </section>
+
+                <!-- EXERCISE 2: CONVERTING FROM "IT'S HIGH TIME" -->
+                <section class="exercise-section">
+                    <h2>🔄 Exercise 2: Converting from "It's high time"</h2>
+                    <p>Rewrite sentence B using modal verbs (should, had better, ought to, etc.):</p>
+
+                    <!-- Exercise 2 Item 1 -->
+                    <div class="exercise-item">
+                        <h4>Item 11</h4>
+                        <p><strong>A:</strong> It's high time you went to the doctor.</p>
+                        <p><strong>B:</strong> You had better <input type="text" id="ex2-q1" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise2(1)">Check Answer</button>
+                        <div id="ex2-result1" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 2 -->
+                    <div class="exercise-item">
+                        <h4>Item 12</h4>
+                        <p><strong>A:</strong> You ought to become a whistleblower.</p>
+                        <p><strong>B:</strong> You should <input type="text" id="ex2-q2" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise2(2)">Check Answer</button>
+                        <div id="ex2-result2" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 3 -->
+                    <div class="exercise-item">
+                        <h4>Item 13</h4>
+                        <p><strong>A:</strong> You need to go to the police station.</p>
+                        <p><strong>B:</strong> You had better <input type="text" id="ex2-q3" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise2(3)">Check Answer</button>
+                        <div id="ex2-result3" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 4 -->
+                    <div class="exercise-item">
+                        <h4>Item 14</h4>
+                        <p><strong>A:</strong> They ought to not invite embezzlers.</p>
+                        <p><strong>B:</strong> <input type="text" id="ex2-q4" class="exercise-input" placeholder="It's high time they..."></p>
+                        <button class="check-btn" onclick="checkExercise2(4)">Check Answer</button>
+                        <div id="ex2-result4" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 5 -->
+                    <div class="exercise-item">
+                        <h4>Item 15</h4>
+                        <p><strong>A:</strong> I am going to the doctor.</p>
+                        <p><strong>B:</strong> I had better <input type="text" id="ex2-q5" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise2(5)">Check Answer</button>
+                        <div id="ex2-result5" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 6 -->
+                    <div class="exercise-item">
+                        <h4>Item 16</h4>
+                        <p><strong>A:</strong> Fraud is a crime therefore it needs to be combated.</p>
+                        <p><strong>B:</strong> <input type="text" id="ex2-q6" class="exercise-input" placeholder="Fraud..."> had better <input type="text" id="ex2-q6b" class="exercise-input" placeholder="be combated"></p>
+                        <button class="check-btn" onclick="checkExercise2(6)">Check Answer</button>
+                        <div id="ex2-result6" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Show All Answers Button for Exercise 2 -->
+                    <div class="exercise-controls">
+                        <button class="show-all-btn" onclick="showAllAnswersEx2()">Show All Answers</button>
+                        <button class="reset-btn" onclick="resetExercise2()">Reset Exercise</button>
+                    </div>
+                </section>
+
+                <!-- EXERCISE 3: MIXED PRACTICE -->
+                <section class="exercise-section">
+                    <h2>🎯 Exercise 3: Mixed Practice</h2>
+                    <p>Choose the correct transformation for each sentence:</p>
+
+                    <!-- Exercise 3 Item 1 -->
+                    <div class="exercise-item">
+                        <h4>Mixed Practice 1</h4>
+                        <p><strong>Transform:</strong> "Companies must implement ethical policies."</p>
+                        <textarea id="ex3-q1" class="exercise-textarea" placeholder="Write using 'It's high time...'"></textarea>
+                        <button class="check-btn" onclick="checkExercise3(1)">Check Answer</button>
+                        <div id="ex3-result1" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 2 -->
+                    <div class="exercise-item">
+                        <h4>Mixed Practice 2</h4>
+                        <p><strong>Transform:</strong> "It's about time students learned about business ethics."</p>
+                        <textarea id="ex3-q2" class="exercise-textarea" placeholder="Write using 'Students should...'"></textarea>
+                        <button class="check-btn" onclick="checkExercise3(2)">Check Answer</button>
+                        <div id="ex3-result2" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 3 -->
+                    <div class="exercise-item">
+                        <h4>Mixed Practice 3</h4>
+                        <p><strong>Transform:</strong> "Employees ought to report workplace violations."</p>
+                        <textarea id="ex3-q3" class="exercise-textarea" placeholder="Write using 'It's high time...'"></textarea>
+                        <button class="check-btn" onclick="checkExercise3(3)">Check Answer</button>
+                        <div id="ex3-result3" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 4 -->
+                    <div class="exercise-item">
+                        <h4>Mixed Practice 4</h4>
+                        <p><strong>Transform:</strong> "It's high time corruption was eliminated from government institutions."</p>
+                        <textarea id="ex3-q4" class="exercise-textarea" placeholder="Write using 'Governments should...'"></textarea>
+                        <button class="check-btn" onclick="checkExercise3(4)">Check Answer</button>
+                        <div id="ex3-result4" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Show All Answers Button for Exercise 3 -->
+                    <div class="exercise-controls">
+                        <button class="show-all-btn" onclick="showAllAnswersEx3()">Show All Answers</button>
+                        <button class="reset-btn" onclick="resetExercise3()">Reset Exercise</button>
+                    </div>
+                </section>
+
+                <!-- Overall Progress Section -->
+                <section class="progress-section">
+                    <h2>📊 Your Progress</h2>
+                    <div class="progress-summary">
+                        <div class="progress-item">
+                            <h4>Exercise 1: To "It's high time"</h4>
+                            <div class="progress-bar">
+                                <div id="progress-ex1" class="progress-fill"></div>
+                            </div>
+                            <span id="progress-text-ex1">0/10 completed</span>
+                        </div>
+                        <div class="progress-item">
+                            <h4>Exercise 2: From "It's high time"</h4>
+                            <div class="progress-bar">
+                                <div id="progress-ex2" class="progress-fill"></div>
+                            </div>
+                            <span id="progress-text-ex2">0/6 completed</span>
+                        </div>
+                        <div class="progress-item">
+                            <h4>Exercise 3: Mixed Practice</h4>
+                            <div class="progress-bar">
+                                <div id="progress-ex3" class="progress-fill"></div>
+                            </div>
+                            <span id="progress-text-ex3">0/4 completed</span>
+                        </div>
+                    </div>
+                    <div class="overall-score">
+                        <h3 id="overall-score-text">Overall Progress: 0%</h3>
+                        <button class="reset-all-btn" onclick="resetAllExercises()">Reset All Exercises</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+
+    <script>
+        // ===== EXERCISE 1: CONVERTING TO "IT'S HIGH TIME" =====
+        
+        // Correct answers for Exercise 1
+        const exercise1Answers = {
+            1: "you stopped eating unhealthy food",
+            2: "she started a healthy diet",
+            3: "I went to the gym regularly",
+            4: "governments fought corruption",
+            5: "bureaucracy stopped",
+            6: "police took their job more seriously",
+            7: "you established a strong ethical foundation",
+            8: "the government arrested scammers",
+            9: "we taught students logical thinking",
+            10: "Muslim countries reduced high unemployment rates"
+        };
+
+        // Track completed exercises
+        let exercise1Progress = 0;
+        let exercise2Progress = 0;
+        let exercise3Progress = 0;
+
+        function checkExercise1(questionNum) {
+            const userAnswer = document.getElementById(`ex1-q${questionNum}`).value.trim().toLowerCase();
+            const correctAnswer = exercise1Answers[questionNum].toLowerCase();
+            const resultDiv = document.getElementById(`ex1-result${questionNum}`);
+            
+            // Check for key components (subject + past tense verb)
+            const keyWords = correctAnswer.split(' ').slice(0, 3); // First 3 words are usually key
+            const hasKeyWords = keyWords.every(word => userAnswer.includes(word));
+            
+            if (hasKeyWords && userAnswer.length > 5) {
+                resultDiv.className = 'exercise-result correct';
+                resultDiv.innerHTML = '✅ Excellent! Perfect transformation!';
+                updateProgress(1, 1);
+            } else {
+                resultDiv.className = 'exercise-result incorrect';
+                resultDiv.innerHTML = `❌ Incorrect. <strong>Correct answer:</strong> ${exercise1Answers[questionNum]}`;
+            }
+        }
+
+        function showAllAnswersEx1() {
+            for (let i = 1; i <= 10; i++) {
+                const resultDiv = document.getElementById(`ex1-result${i}`);
+                resultDiv.className = 'exercise-result show-answer';
+                resultDiv.innerHTML = `📝 <strong>Answer:</strong> It's high time ${exercise1Answers[i]}`;
+            }
+        }
+
+        function resetExercise1() {
+            for (let i = 1; i <= 10; i++) {
+                document.getElementById(`ex1-q${i}`).value = '';
+                document.getElementById(`ex1-result${i}`).innerHTML = '';
+                document.getElementById(`ex1-result${i}`).className = 'exercise-result';
+            }
+            exercise1Progress = 0;
+            updateProgress(1, 0);
+        }
+
+        // ===== EXERCISE 2: CONVERTING FROM "IT'S HIGH TIME" =====
+        
+        const exercise2Answers = {
+            1: "go to the doctor",
+            2: "become a whistleblower", 
+            3: "go to the police station",
+            4: "It's high time they didn't invite embezzlers",
+            5: "go to the doctor",
+            6: {
+                part1: "Fraud",
+                part2: "be combated"
+            }
+        };
+
+        function checkExercise2(questionNum) {
+            const resultDiv = document.getElementById(`ex2-result${questionNum}`);
+            let userAnswer, correctAnswer, isCorrect = false;
+
+            if (questionNum === 6) {
+                // Two-part answer
+                const userAnswer1 = document.getElementById(`ex2-q${questionNum}`).value.trim().toLowerCase();
+                const userAnswer2 = document.getElementById(`ex2-q${questionNum}b`).value.trim().toLowerCase();
+                const correctAnswer1 = exercise2Answers[questionNum].part1.toLowerCase();
+                const correctAnswer2 = exercise2Answers[questionNum].part2.toLowerCase();
+                
+                isCorrect = userAnswer1.includes(correctAnswer1) && userAnswer2.includes(correctAnswer2);
+                correctAnswer = `${exercise2Answers[questionNum].part1} had better ${exercise2Answers[questionNum].part2}`;
+            } else {
+                userAnswer = document.getElementById(`ex2-q${questionNum}`).value.trim().toLowerCase();
+                correctAnswer = exercise2Answers[questionNum].toLowerCase();
+                
+                if (questionNum === 4) {
+                    // Special case for negative transformation
+                    isCorrect = userAnswer.includes("high time") && userAnswer.includes("didn't");
+                    correctAnswer = exercise2Answers[questionNum];
+                } else {
+                    isCorrect = userAnswer.includes(correctAnswer.split(' ')[0]) && userAnswer.length > 3;
+                }
+            }
+            
+            if (isCorrect) {
+                resultDiv.className = 'exercise-result correct';
+                resultDiv.innerHTML = '✅ Great job! Perfect modal usage!';
+                updateProgress(2, 1);
+            } else {
+                resultDiv.className = 'exercise-result incorrect';
+                resultDiv.innerHTML = `❌ Try again. <strong>Correct answer:</strong> ${correctAnswer}`;
+            }
+        }
+
+        function showAllAnswersEx2() {
+            for (let i = 1; i <= 6; i++) {
+                const resultDiv = document.getElementById(`ex2-result${i}`);
+                resultDiv.className = 'exercise-result show-answer';
+                if (i === 6) {
+                    resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise2Answers[i].part1} had better ${exercise2Answers[i].part2}`;
+                } else {
+                    resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise2Answers[i]}`;
+                }
+            }
+        }
+
+        function resetExercise2() {
+            for (let i = 1; i <= 6; i++) {
+                document.getElementById(`ex2-q${i}`).value = '';
+                if (i === 6) {
+                    document.getElementById(`ex2-q${i}b`).value = '';
+                }
+                document.getElementById(`ex2-result${i}`).innerHTML = '';
+                document.getElementById(`ex2-result${i}`).className = 'exercise-result';
+            }
+            exercise2Progress = 0;
+            updateProgress(2, 0);
+        }
+
+        // ===== EXERCISE 3: MIXED PRACTICE =====
+        
+        const exercise3Answers = {
+            1: "It's high time companies implemented ethical policies.",
+            2: "Students should learn about business ethics.",
+            3: "It's high time employees reported workplace violations.",
+            4: "Governments should eliminate corruption from government institutions."
+        };
+
+        function checkExercise3(questionNum) {
+            const userAnswer = document.getElementById(`ex3-q${questionNum}`).value.trim().toLowerCase();
+            const correctAnswer = exercise3Answers[questionNum].toLowerCase();
+            const resultDiv = document.getElementById(`ex3-result${questionNum}`);
+            
+            // Check for key grammar structures
+            let hasCorrectStructure = false;
+            
+            if (questionNum === 1 || questionNum === 3) {
+                // Should contain "it's high time" or "it's about time"
+                hasCorrectStructure = userAnswer.includes("high time") || userAnswer.includes("about time");
+            } else {
+                // Should contain modal verbs
+                hasCorrectStructure = userAnswer.includes("should") || userAnswer.includes("ought") || userAnswer.includes("must");
+            }
+            
+            if (hasCorrectStructure && userAnswer.length > 10) {
+                resultDiv.className = 'exercise-result correct';
+                resultDiv.innerHTML = '✅ Excellent! You understand the transformation patterns!';
+                updateProgress(3, 1);
+            } else {
+                resultDiv.className = 'exercise-result incorrect';
+                resultDiv.innerHTML = `❌ Keep practicing! <strong>Suggested answer:</strong> ${exercise3Answers[questionNum]}`;
+            }
+        }
+
+        function showAllAnswersEx3() {
+            for (let i = 1; i <= 4; i++) {
+                const resultDiv = document.getElementById(`ex3-result${i}`);
+                resultDiv.className = 'exercise-result show-answer';
+                resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise3Answers[i]}`;
+            }
+        }
+
+        function resetExercise3() {
+            for (let i = 1; i <= 4; i++) {
+                document.getElementById(`ex3-q${i}`).value = '';
+                document.getElementById(`ex3-result${i}`).innerHTML = '';
+                document.getElementById(`ex3-result${i}`).className = 'exercise-result';
+            }
+            exercise3Progress = 0;
+            updateProgress(3, 0);
+        }
+
+        // ===== PROGRESS TRACKING =====
+        
+        function updateProgress(exerciseNum, increment) {
+            if (exerciseNum === 1) {
+                exercise1Progress = Math.min(exercise1Progress + increment, 10);
+                const percentage = Math.round((exercise1Progress / 10) * 100);
+                document.getElementById('progress-ex1').style.width = percentage + '%';
+                document.getElementById('progress-text-ex1').textContent = `${exercise1Progress}/10 completed`;
+            } else if (exerciseNum === 2) {
+                exercise2Progress = Math.min(exercise2Progress + increment, 6);
+                const percentage = Math.round((exercise2Progress / 6) * 100);
+                document.getElementById('progress-ex2').style.width = percentage + '%';
+                document.getElementById('progress-text-ex2').textContent = `${exercise2Progress}/6 completed`;
+            } else if (exerciseNum === 3) {
+                exercise3Progress = Math.min(exercise3Progress + increment, 4);
+                const percentage = Math.round((exercise3Progress / 4) * 100);
+                document.getElementById('progress-ex3').style.width = percentage + '%';
+                document.getElementById('progress-text-ex3').textContent = `${exercise3Progress}/4 completed`;
+            }
+            
+            updateOverallProgress();
+        }
+
+        function updateOverallProgress() {
+            const totalCompleted = exercise1Progress + exercise2Progress + exercise3Progress;
+            const totalQuestions = 10 + 6 + 4; // 20 total
+            const overallPercentage = Math.round((totalCompleted / totalQuestions) * 100);
+            
+            document.getElementById('overall-score-text').textContent = `Overall Progress: ${overallPercentage}%`;
+        }
+
+        function resetAllExercises() {
+            resetExercise1();
+            resetExercise2();
+            resetExercise3();
+        }
+
+        // ===== MOBILE MENU FUNCTIONALITY =====
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('mobile-open');
+        }
+
+        // Close sidebar when clicking on content area on mobile
+        document.querySelector('.content').addEventListener('click', function() {
+            const sidebar = document.querySelector('.sidebar');
+            if (sidebar.classList.contains('mobile-open')) {
+                sidebar.classList.remove('mobile-open');
+            }
+        });
+
+        // Add smooth hover effects to lesson links
+        document.querySelectorAll('.lesson-link').forEach(link => {
+            link.addEventListener('mouseenter', function() {
+                if (!this.style.background.includes('var(--accent-color)')) {
+                    this.style.transform = 'translateX(5px)';
+                }
+            });
+            
+            link.addEventListener('mouseleave', function() {
+                if (!this.style.background.includes('var(--accent-color)')) {
+                    this.style.transform = 'translateX(0)';
+                }
+            });
+        });
+
+        // Initialize progress on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateOverallProgress();
+        });
+    </script>
+</body>
+</html>

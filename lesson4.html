@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4: Cause and Effect - Miss Ilhem BAC English</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1>📚 Miss Ilhem – BAC English Help</h1>
+            <p>Interactive Grammar Lessons for Baccalaureate Students</p>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <h2>Grammar Lessons</h2>
+            <ul class="lesson-list">
+                <li>
+                    <a href="lesson1.html" class="lesson-link">
+                        <span class="lesson-number">1</span>
+                        <span class="lesson-title">I wish / If only</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson2.html" class="lesson-link">
+                        <span class="lesson-number">2</span>
+                        <span class="lesson-title">If / Providing that</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson3.html" class="lesson-link">
+                        <span class="lesson-number">3</span>
+                        <span class="lesson-title">It's high time / It's about time</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson4.html" class="lesson-link" style="background: var(--accent-color); border-left-color: var(--primary-color);">
+                        <span class="lesson-number">4</span>
+                        <span class="lesson-title">Cause and Effect</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson5.html" class="lesson-link">
+                        <span class="lesson-number">5</span>
+                        <span class="lesson-title">So ... that / Such ... that</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson6.html" class="lesson-link">
+                        <span class="lesson-number">6</span>
+                        <span class="lesson-title">Reported Speech</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson7.html" class="lesson-link">
+                        <span class="lesson-number">7</span>
+                        <span class="lesson-title">Expressing Concessions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson8.html" class="lesson-link">
+                        <span class="lesson-number">8</span>
+                        <span class="lesson-title">Expressing Purpose</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <!-- Lesson Header -->
+            <div class="lesson-header">
+                <h1>Lesson 4: Cause and Effect</h1>
+                <p>Master expressing causes and consequences with different structures</p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="lesson-nav">
+                <a href="index.html" class="back-btn">← Back to Home</a>
+            </div>
+
+            <!-- Lesson Content -->
+            <div class="lesson-content">
+                <!-- PDF Section -->
+                <section class="pdf-section">
+                    <h2>📄 Lesson Explanation</h2>
+                    
+                    <!-- Replace with your PDF file -->
+                    <div class="pdf-placeholder">
+                        <div class="pdf-placeholder-icon">📄</div>
+                        <h3>PDF Explanation</h3>
+                            <iframe src="cause.pdf" width="100%" height="900px">
+                             This browser does not support PDFs. Please download the PDF to view it:
+                                <a href="cause.pdf">Download PDF</a>.
+                            </iframe>
+                    </div>
+                    
+                    <!-- Uncomment when you have the PDF -->
+                    <!--
+                    <iframe 
+                        src="lesson4-explanation.pdf" 
+                        class="pdf-embed"
+                        title="Cause and Effect - Grammar Explanation">
+                        <p>Your browser doesn't support PDF embedding. 
+                           <a href="lesson4-explanation.pdf" target="_blank">Download the PDF</a>
+                        </p>
+                    </iframe>
+                    -->
+                </section>
+
+                <!-- Grammar Patterns Section -->
+                <section class="patterns-section">
+                    <h2>📋 Cause and Effect Patterns</h2>
+                    <div class="patterns-grid">
+                        <div class="pattern-card">
+                            <h4>🔗 Clause + Clause</h4>
+                            <ul>
+                                <li><strong>Since</strong> + cause, result</li>
+                                <li><strong>Because</strong> + cause, result</li>
+                                <li><strong>As</strong> + cause, result</li>
+                                <li>Cause + <strong>therefore</strong> + result</li>
+                                <li>Cause + <strong>consequently</strong> + result</li>
+                            </ul>
+                        </div>
+                        <div class="pattern-card">
+                            <h4>🏷️ Noun + Clause</h4>
+                            <ul>
+                                <li><strong>Because of</strong> + noun, result</li>
+                                <li><strong>Due to</strong> + noun, result</li>
+                                <li><strong>Owing to</strong> + noun, result</li>
+                                <li><strong>As a result of</strong> + noun, result</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- EXERCISE 1: CAUSE AND EFFECT TRANSFORMATIONS -->
+                <section class="exercise-section">
+                    <h2>🔄 Exercise 1: Cause and Effect Transformations</h2>
+                    <p>Transform the sentences using the given words or patterns:</p>
+
+                    <!-- Exercise 1 Item 1 -->
+                    <div class="exercise-item">
+                        <h4>Item 1</h4>
+                        <p><strong>Given:</strong> He robbed the bank. As a result, the police arrested him.</p>
+                        <p><strong>Transform using "Since":</strong></p>
+                        <p>Since <input type="text" id="ex1-q1" class="exercise-input" placeholder="he robbed the bank, the police arrested him"></p>
+                        <button class="check-btn" onclick="checkExercise1(1)">Check Answer</button>
+                        <div id="ex1-result1" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 2 -->
+                    <div class="exercise-item">
+                        <h4>Item 2</h4>
+                        <p><strong>Given:</strong> He robbed the bank. As a result, the police arrested him.</p>
+                        <p><strong>Transform using "as":</strong></p>
+                        <p><input type="text" id="ex1-q2" class="exercise-input" placeholder="The police arrested him"> as <input type="text" id="ex1-q2b" class="exercise-input" placeholder="he robbed the bank"></p>
+                        <button class="check-btn" onclick="checkExercise1(2)">Check Answer</button>
+                        <div id="ex1-result2" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 3 -->
+                    <div class="exercise-item">
+                        <h4>Item 3</h4>
+                        <p><strong>Given:</strong> Rural urban immigration is increasing. Consequently, job opportunities are scarce in rural areas.</p>
+                        <p><strong>Transform using "Because":</strong></p>
+                        <p>Because <input type="text" id="ex1-q3" class="exercise-input" placeholder="rural urban immigration is increasing, job opportunities are scarce in rural areas"></p>
+                        <button class="check-btn" onclick="checkExercise1(3)">Check Answer</button>
+                        <div id="ex1-result3" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 4 -->
+                    <div class="exercise-item">
+                        <h4>Item 4</h4>
+                        <p><strong>Given:</strong> Nora went home because she felt sick.</p>
+                        <p><strong>Transform using "Since":</strong></p>
+                        <p>Since <input type="text" id="ex1-q4" class="exercise-input" placeholder="she felt sick, Nora went home"></p>
+                        <button class="check-btn" onclick="checkExercise1(4)">Check Answer</button>
+                        <div id="ex1-result4" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 5 -->
+                    <div class="exercise-item">
+                        <h4>Item 5</h4>
+                        <p><strong>Given:</strong> Nora went home because she felt sick.</p>
+                        <p><strong>Transform using "therefore":</strong></p>
+                        <p><input type="text" id="ex1-q5" class="exercise-input" placeholder="Nora felt sick"> therefore <input type="text" id="ex1-q5b" class="exercise-input" placeholder="she went home"></p>
+                        <button class="check-btn" onclick="checkExercise1(5)">Check Answer</button>
+                        <div id="ex1-result5" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Show All Answers Button for Exercise 1 -->
+                    <div class="exercise-controls">
+                        <button class="show-all-btn" onclick="showAllAnswersEx1()">Show All Answers</button>
+                        <button class="reset-btn" onclick="resetExercise1()">Reset Exercise</button>
+                    </div>
+                </section>
+
+                <!-- EXERCISE 2: SENTENCE COMBINING -->
+                <section class="exercise-section">
+                    <h2>🔗 Exercise 2: Combining Sentences</h2>
+                    <p>Combine the following sentences using the words in brackets:</p>
+
+                    <!-- Exercise 2 Item 1 -->
+                    <div class="exercise-item">
+                        <h4>Item 1</h4>
+                        <p><strong>Combine:</strong> He took his medicine regularly. He got better. <em>(consequently)</em></p>
+                        <textarea id="ex2-q1" class="exercise-textarea" placeholder="Write your combined sentence here..."></textarea>
+                        <button class="check-btn" onclick="checkExercise2(1)">Check Answer</button>
+                        <div id="ex2-result1" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 2 -->
+                    <div class="exercise-item">
+                        <h4>Item 2</h4>
+                        <p><strong>Combine:</strong> I wasn't paying attention to the teacher. I didn't understand the lesson. <em>(as)</em></p>
+                        <textarea id="ex2-q2" class="exercise-textarea" placeholder="Write your combined sentence here..."></textarea>
+                        <button class="check-btn" onclick="checkExercise2(2)">Check Answer</button>
+                        <div id="ex2-result2" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 3 -->
+                    <div class="exercise-item">
+                        <h4>Item 3</h4>
+                        <p><strong>Given:</strong> As I wasn't paying attention to the teacher, I didn't understand the lesson.</p>
+                        <p><strong>Transform using "therefore":</strong></p>
+                        <textarea id="ex2-q3" class="exercise-textarea" placeholder="Rewrite using 'therefore'..."></textarea>
+                        <button class="check-btn" onclick="checkExercise2(3)">Check Answer</button>
+                        <div id="ex2-result3" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 4 -->
+                    <div class="exercise-item">
+                        <h4>Item 4</h4>
+                        <p><strong>Combine:</strong> I stayed up late last night. I woke up late. <em>(Because)</em></p>
+                        <textarea id="ex2-q4" class="exercise-textarea" placeholder="Write your combined sentence here..."></textarea>
+                        <button class="check-btn" onclick="checkExercise2(4)">Check Answer</button>
+                        <div id="ex2-result4" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Show All Answers Button for Exercise 2 -->
+                    <div class="exercise-controls">
+                        <button class="show-all-btn" onclick="showAllAnswersEx2()">Show All Answers</button>
+                        <button class="reset-btn" onclick="resetExercise2()">Reset Exercise</button>
+                    </div>
+                </section>
+
+                <!-- EXERCISE 3: CLAUSE TO NOUN PHRASE CONVERSION -->
+                <section class="exercise-section">
+                    <h2>🏷️ Exercise 3: From Clause to Noun Phrase</h2>
+                    <div class="conversion-explanation">
+                        <h4>📝 Pattern: Because + clause → Because of/Due to/Owing to/As a result of + noun</h4>
+                        <p><strong>Example:</strong></p>
+                        <p>Since people over consume products, the environment is devastated.</p>
+                        <p>↓</p>
+                        <p>Because of people's over consumption of products, the environment is devastated.</p>
+                    </div>
+
+                    <!-- Exercise 3 Item 1 -->
+                    <div class="exercise-item">
+                        <h4>Item 1</h4>
+                        <p><strong>A:</strong> The Earth is polluted because people produce waste.</p>
+                        <p><strong>B:</strong> Because of <input type="text" id="ex3-q1" class="exercise-input" placeholder="people's production of waste, the Earth is polluted"></p>
+                        <button class="check-btn" onclick="checkExercise3(1)">Check Answer</button>
+                        <div id="ex3-result1" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 2 -->
+                    <div class="exercise-item">
+                        <h4>Item 2</h4>
+                        <p><strong>A:</strong> Omar went to jail because he embezzled.</p>
+                        <p><strong>B:</strong> Owing to <input type="text" id="ex3-q2" class="exercise-input" placeholder="his embezzlement, Omar went to jail"></p>
+                        <button class="check-btn" onclick="checkExercise3(2)">Check Answer</button>
+                        <div id="ex3-result2" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 3 -->
+                    <div class="exercise-item">
+                        <h4>Item 3</h4>
+                        <p><strong>A:</strong> The police officer took a bribe, he was fired and imprisoned.</p>
+                        <p><strong>B:</strong> Due to <input type="text" id="ex3-q3" class="exercise-input" placeholder="taking a bribe, the police officer was fired and imprisoned"></p>
+                        <button class="check-btn" onclick="checkExercise3(3)">Check Answer</button>
+                        <div id="ex3-result3" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 4 -->
+                    <div class="exercise-item">
+                        <h4>Item 4</h4>
+                        <p><strong>A:</strong> Because the teacher explained the lesson fast, the students didn't understand the lesson.</p>
+                        <p><strong>B:</strong> As a result of <input type="text" id="ex3-q4" class="exercise-input" placeholder="the teacher's fast explanation, the students didn't understand the lesson"></p>
+                        <button class="check-btn" onclick="checkExercise3(4)">Check Answer</button>
+                        <div id="ex3-result4" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Show All Answers Button for Exercise 3 -->
+                    <div class="exercise-controls">
+                        <button class="show-all-btn" onclick="showAllAnswersEx3()">Show All Answers</button>
+                        <button class="reset-btn" onclick="resetExercise3()">Reset Exercise</button>
+                    </div>
+                </section>
+
+                <!-- Overall Progress Section -->
+                <section class="progress-section">
+                    <h2>📊 Your Progress</h2>
+                    <div class="progress-summary">
+                        <div class="progress-item">
+                            <h4>Exercise 1: Transformations</h4>
+                            <div class="progress-bar">
+                                <div id="progress-ex1" class="progress-fill"></div>
+                            </div>
+                            <span id="progress-text-ex1">0/5 completed</span>
+                        </div>
+                        <div class="progress-item">
+                            <h4>Exercise 2: Sentence Combining</h4>
+                            <div class="progress-bar">
+                                <div id="progress-ex2" class="progress-fill"></div>
+                            </div>
+                            <span id="progress-text-ex2">0/4 completed</span>
+                        </div>
+                        <div class="progress-item">
+                            <h4>Exercise 3: Clause to Noun</h4>
+                            <div class="progress-bar">
+                                <div id="progress-ex3" class="progress-fill"></div>
+                            </div>
+                            <span id="progress-text-ex3">0/4 completed</span>
+                        </div>
+                    </div>
+                    <div class="overall-score">
+                        <h3 id="overall-score-text">Overall Progress: 0%</h3>
+                        <button class="reset-all-btn" onclick="resetAllExercises()">Reset All Exercises</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+
+    <script>
+        // ===== EXERCISE 1: CAUSE AND EFFECT TRANSFORMATIONS =====
+        
+        // Correct answers for Exercise 1
+        const exercise1Answers = {
+            1: "he robbed the bank, the police arrested him",
+            2: {
+                part1: "The police arrested him",
+                part2: "he robbed the bank"
+            },
+            3: "rural urban immigration is increasing, job opportunities are scarce in rural areas",
+            4: "she felt sick, Nora went home",
+            5: {
+                part1: "Nora felt sick",
+                part2: "she went home"
+            }
+        };
+
+        // Track completed exercises
+        let exercise1Progress = 0;
+        let exercise2Progress = 0;
+        let exercise3Progress = 0;
+
+        function checkExercise1(questionNum) {
+            const resultDiv = document.getElementById(`ex1-result${questionNum}`);
+            let isCorrect = false;
+
+            if (questionNum === 2 || questionNum === 5) {
+                // Two-part answers
+                const userAnswer1 = document.getElementById(`ex1-q${questionNum}`).value.trim().toLowerCase();
+                const userAnswer2 = document.getElementById(`ex1-q${questionNum}b`).value.trim().toLowerCase();
+                const correctAnswer1 = exercise1Answers[questionNum].part1.toLowerCase();
+                const correctAnswer2 = exercise1Answers[questionNum].part2.toLowerCase();
+                
+                const check1 = userAnswer1.includes(correctAnswer1.split(' ').slice(0, 3).join(' '));
+                const check2 = userAnswer2.includes(correctAnswer2.split(' ').slice(0, 3).join(' '));
+                isCorrect = check1 && check2;
+            } else {
+                // Single answer
+                const userAnswer = document.getElementById(`ex1-q${questionNum}`).value.trim().toLowerCase();
+                const correctAnswer = exercise1Answers[questionNum].toLowerCase();
+                const keyWords = correctAnswer.split(' ').slice(0, 4);
+                isCorrect = keyWords.every(word => userAnswer.includes(word));
+            }
+
+            if (isCorrect) {
+                resultDiv.className = 'exercise-result correct';
+                resultDiv.innerHTML = '✅ Perfect! Great cause-effect transformation!';
+                updateProgress(1, 1);
+            } else {
+                resultDiv.className = 'exercise-result incorrect';
+                let correctAnswerDisplay = '';
+                if (exercise1Answers[questionNum].part1) {
+                    correctAnswerDisplay = `${exercise1Answers[questionNum].part1} as ${exercise1Answers[questionNum].part2}`;
+                } else {
+                    correctAnswerDisplay = exercise1Answers[questionNum];
+                }
+                resultDiv.innerHTML = `❌ Try again. <strong>Correct answer:</strong> ${correctAnswerDisplay}`;
+            }
+        }
+
+        function showAllAnswersEx1() {
+            for (let i = 1; i <= 5; i++) {
+                const resultDiv = document.getElementById(`ex1-result${i}`);
+                resultDiv.className = 'exercise-result show-answer';
+                if (exercise1Answers[i].part1) {
+                    resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise1Answers[i].part1} as ${exercise1Answers[i].part2}`;
+                } else {
+                    resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise1Answers[i]}`;
+                }
+            }
+        }
+
+        function resetExercise1() {
+            for (let i = 1; i <= 5; i++) {
+                document.getElementById(`ex1-q${i}`).value = '';
+                if (i === 2 || i === 5) {
+                    document.getElementById(`ex1-q${i}b`).value = '';
+                }
+                document.getElementById(`ex1-result${i}`).innerHTML = '';
+                document.getElementById(`ex1-result${i}`).className = 'exercise-result';
+            }
+            exercise1Progress = 0;
+            updateProgress(1, 0);
+        }
+
+        // ===== EXERCISE 2: SENTENCE COMBINING =====
+        
+        const exercise2Answers = {
+            1: "He took his medicine regularly, consequently he got better.",
+            2: "As I wasn't paying attention to the teacher, I didn't understand the lesson.", 
+            3: "I wasn't paying attention to the teacher, therefore I didn't understand the lesson.",
+            4: "Because I stayed up late last night, I woke up late."
+        };
+
+        function checkExercise2(questionNum) {
+            const userAnswer = document.getElementById(`ex2-q${questionNum}`).value.trim().toLowerCase();
+            const correctAnswer = exercise2Answers[questionNum].toLowerCase();
+            const resultDiv = document.getElementById(`ex2-result${questionNum}`);
+            
+            // Check for key cause-effect words and basic structure
+            const causeEffectWords = ['consequently', 'as', 'therefore', 'because', 'since'];
+            const hasCauseEffect = causeEffectWords.some(word => userAnswer.includes(word));
+            
+            if (hasCauseEffect && userAnswer.length > 10) {
+                resultDiv.className = 'exercise-result correct';
+                resultDiv.innerHTML = '✅ Excellent! You understand cause-effect relationships!';
+                updateProgress(2, 1);
+            } else {
+                resultDiv.className = 'exercise-result incorrect';
+                resultDiv.innerHTML = `❌ Try again. <strong>Suggested answer:</strong> ${exercise2Answers[questionNum]}`;
+            }
+        }
+
+        function showAllAnswersEx2() {
+            for (let i = 1; i <= 4; i++) {
+                const resultDiv = document.getElementById(`ex2-result${i}`);
+                resultDiv.className = 'exercise-result show-answer';
+                resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise2Answers[i]}`;
+            }
+        }
+
+        function resetExercise2() {
+            for (let i = 1; i <= 4; i++) {
+                document.getElementById(`ex2-q${i}`).value = '';
+                document.getElementById(`ex2-result${i}`).innerHTML = '';
+                document.getElementById(`ex2-result${i}`).className = 'exercise-result';
+            }
+            exercise2Progress = 0;
+            updateProgress(2, 0);
+        }
+
+        // ===== EXERCISE 3: CLAUSE TO NOUN PHRASE CONVERSION =====
+        
+        const exercise3Answers = {
+            1: "people's production of waste, the Earth is polluted",
+            2: "his embezzlement, Omar went to jail",
+            3: "taking a bribe, the police officer was fired and imprisoned",
+            4: "the teacher's fast explanation, the students didn't understand the lesson"
+        };
+
+        function checkExercise3(questionNum) {
+            const userAnswer = document.getElementById(`ex3-q${questionNum}`).value.trim().toLowerCase();
+            const correctAnswer = exercise3Answers[questionNum].toLowerCase();
+            const resultDiv = document.getElementById(`ex3-result${questionNum}`);
+            
+            // Check for key noun forms and structure
+            const keyWords = correctAnswer.split(' ').slice(0, 3);
+            const hasKeyWords = keyWords.some(word => userAnswer.includes(word));
+            
+            if (hasKeyWords && userAnswer.length > 5) {
+                resultDiv.className = 'exercise-result correct';
+                resultDiv.innerHTML = '✅ Perfect! You converted the clause to a noun phrase correctly!';
+                updateProgress(3, 1);
+            } else {
+                resultDiv.className = 'exercise-result incorrect';
+                resultDiv.innerHTML = `❌ Keep practicing! <strong>Correct answer:</strong> ${exercise3Answers[questionNum]}`;
+            }
+        }
+
+        function showAllAnswersEx3() {
+            for (let i = 1; i <= 4; i++) {
+                const resultDiv = document.getElementById(`ex3-result${i}`);
+                resultDiv.className = 'exercise-result show-answer';
+                resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise3Answers[i]}`;
+            }
+        }
+
+        function resetExercise3() {
+            for (let i = 1; i <= 4; i++) {
+                document.getElementById(`ex3-q${i}`).value = '';
+                document.getElementById(`ex3-result${i}`).innerHTML = '';
+                document.getElementById(`ex3-result${i}`).className = 'exercise-result';
+            }
+            exercise3Progress = 0;
+            updateProgress(3, 0);
+        }
+
+        // ===== PROGRESS TRACKING =====
+        
+        function updateProgress(exerciseNum, increment) {
+            if (exerciseNum === 1) {
+                exercise1Progress = Math.min(exercise1Progress + increment, 5);
+                const percentage = Math.round((exercise1Progress / 5) * 100);
+                document.getElementById('progress-ex1').style.width = percentage + '%';
+                document.getElementById('progress-text-ex1').textContent = `${exercise1Progress}/5 completed`;
+            } else if (exerciseNum === 2) {
+                exercise2Progress = Math.min(exercise2Progress + increment, 4);
+                const percentage = Math.round((exercise2Progress / 4) * 100);
+                document.getElementById('progress-ex2').style.width = percentage + '%';
+                document.getElementById('progress-text-ex2').textContent = `${exercise2Progress}/4 completed`;
+            } else if (exerciseNum === 3) {
+                exercise3Progress = Math.min(exercise3Progress + increment, 4);
+                const percentage = Math.round((exercise3Progress / 4) * 100);
+                document.getElementById('progress-ex3').style.width = percentage + '%';
+                document.getElementById('progress-text-ex3').textContent = `${exercise3Progress}/4 completed`;
+            }
+            
+            updateOverallProgress();
+        }
+
+        function updateOverallProgress() {
+            const totalCompleted = exercise1Progress + exercise2Progress + exercise3Progress;
+            const totalQuestions = 5 + 4 + 4; // 13 total
+            const overallPercentage = Math.round((totalCompleted / totalQuestions) * 100);
+            
+            document.getElementById('overall-score-text').textContent = `Overall Progress: ${overallPercentage}%`;
+        }
+
+        function resetAllExercises() {
+            resetExercise1();
+            resetExercise2();
+            resetExercise3();
+        }
+
+        // ===== MOBILE MENU FUNCTIONALITY =====
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('mobile-open');
+        }
+
+        // Close sidebar when clicking on content area on mobile
+        document.querySelector('.content').addEventListener('click', function() {
+            const sidebar = document.querySelector('.sidebar');
+            if (sidebar.classList.contains('mobile-open')) {
+                sidebar.classList.remove('mobile-open');
+            }
+        });
+
+        // Add smooth hover effects to lesson links
+        document.querySelectorAll('.lesson-link').forEach(link => {
+            link.addEventListener('mouseenter', function() {
+                if (!this.style.background.includes('var(--accent-color)')) {
+                    this.style.transform = 'translateX(5px)';
+                }
+            });
+            
+            link.addEventListener('mouseleave', function() {
+                if (!this.style.background.includes('var(--accent-color)')) {
+                    this.style.transform = 'translateX(0)';
+                }
+            });
+        });
+
+        // Initialize progress on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateOverallProgress();
+        });
+    </script>
+</body>
+</html>

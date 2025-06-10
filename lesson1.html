@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 1: I wish / If only - Miss Ilhem BAC English</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1>📚 Miss Ilhem – BAC English Help</h1>
+            <p>Interactive Grammar Lessons for Baccalaureate Students</p>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <h2>Grammar Lessons</h2>
+            <ul class="lesson-list">
+                <li>
+                    <a href="lesson1.html" class="lesson-link" style="background: var(--accent-color); border-left-color: var(--primary-color);">
+                        <span class="lesson-number">1</span>
+                        <span class="lesson-title">I wish / If only</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson2.html" class="lesson-link">
+                        <span class="lesson-number">2</span>
+                        <span class="lesson-title">If / Providing that</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson3.html" class="lesson-link">
+                        <span class="lesson-number">3</span>
+                        <span class="lesson-title">It's high time / It's about time</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson4.html" class="lesson-link">
+                        <span class="lesson-number">4</span>
+                        <span class="lesson-title">Cause and Effect</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson5.html" class="lesson-link">
+                        <span class="lesson-number">5</span>
+                        <span class="lesson-title">So ... that / Such ... that</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson6.html" class="lesson-link">
+                        <span class="lesson-number">6</span>
+                        <span class="lesson-title">Reported Speech</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson7.html" class="lesson-link">
+                        <span class="lesson-number">7</span>
+                        <span class="lesson-title">Expressing Concessions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lesson8.html" class="lesson-link">
+                        <span class="lesson-number">8</span>
+                        <span class="lesson-title">Expressing Purpose</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <!-- Lesson Header -->
+            <div class="lesson-header">
+                <h1>Lesson 1: I wish / If only</h1>
+                <p>Master expressing regrets and wishes in English</p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="lesson-nav">
+                <a href="index.html" class="back-btn">← Back to Home</a>
+            </div>
+
+            <!-- Lesson Content -->
+            <div class="lesson-content">
+                <!-- PDF Section -->
+                <section class="pdf-section">
+                    <h2>📄 Lesson Explanation</h2>
+                    
+                    <!-- Replace with your PDF file -->
+                    <div class="pdf-placeholder">
+                        <div class="pdf-placeholder-icon">📄</div>
+                        <h3>PDF Explanation</h3>
+                            <iframe src="i wish.pdf" width="100%" height="900px">
+                             This browser does not support PDFs. Please download the PDF to view it:
+                                <a href="i wish.pdf">Download PDF</a>.
+                            </iframe>
+                        
+                    </div>
+                    
+                    <!-- Uncomment when you have the PDF -->
+                    <!--
+                    <iframe 
+                        src="lesson1-explanation.pdf" 
+                        class="pdf-embed"
+                        title="I wish / If only - Grammar Explanation">
+                        <p>Your browser doesn't support PDF embedding. 
+                           <a href="lesson1-explanation.pdf" target="_blank">Download the PDF</a>
+                        </p>
+                    </iframe>
+                    -->
+                </section>
+
+                <!-- EXERCISE 1: REWRITING SENTENCES -->
+                <section class="exercise-section">
+                    <h2>✏️ Exercise 1: Rewriting Sentences</h2>
+                    <p>Rewrite sentence B so that it means the same as sentence A using "I wish" or "If only":</p>
+
+                    <!-- Exercise 1 Item 1 -->
+                    <div class="exercise-item">
+                        <h4>Item 1</h4>
+                        <p><strong>A:</strong> Corruption isn't eradicated from our government, as it undermines trust in our institutions.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex1-q1" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(1)">Check Answer</button>
+                        <div id="ex1-result1" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 2 -->
+                    <div class="exercise-item">
+                        <h4>Item 2</h4>
+                        <p><strong>A:</strong> Stricter financial regulations can't combat money laundering more effectively.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex1-q2" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(2)">Check Answer</button>
+                        <div id="ex1-result2" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 3 -->
+                    <div class="exercise-item">
+                        <h4>Item 3</h4>
+                        <p><strong>A:</strong> People used blackmailing as a means to exploit others' vulnerabilities.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex1-q3" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(3)">Check Answer</button>
+                        <div id="ex1-result3" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 4 -->
+                    <div class="exercise-item">
+                        <h4>Item 4</h4>
+                        <p><strong>A:</strong> Embezzlement cases are more prevalent in the corporate world, as they harm businesses and their stakeholders.</p>
+                        <p><strong>B:</strong> If only <input type="text" id="ex1-q4" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(4)">Check Answer</button>
+                        <div id="ex1-result4" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 5 -->
+                    <div class="exercise-item">
+                        <h4>Item 5</h4>
+                        <p><strong>A:</strong> The boss fired me last year and I am jobless now.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex1-q5" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(5)">Check Answer</button>
+                        <div id="ex1-result5" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 6 -->
+                    <div class="exercise-item">
+                        <h4>Item 6</h4>
+                        <p><strong>A:</strong> I don't understand English language.</p>
+                        <p><strong>B:</strong> I wish I <input type="text" id="ex1-q6" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(6)">Check Answer</button>
+                        <div id="ex1-result6" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 7 -->
+                    <div class="exercise-item">
+                        <h4>Item 7</h4>
+                        <p><strong>A:</strong> I don't enjoy my job in this company anymore.</p>
+                        <p><strong>B:</strong> I wish I <input type="text" id="ex1-q7" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(7)">Check Answer</button>
+                        <div id="ex1-result7" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 1 Item 8 -->
+                    <div class="exercise-item">
+                        <h4>Item 8</h4>
+                        <p><strong>A:</strong> I lived in a very small house with my parents.</p>
+                        <p><strong>B:</strong> I wish I <input type="text" id="ex1-q8" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise1(8)">Check Answer</button>
+                        <div id="ex1-result8" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Show All Answers Button for Exercise 1 -->
+                    <div class="exercise-controls">
+                        <button class="show-all-btn" onclick="showAllAnswersEx1()">Show All Answers</button>
+                        <button class="reset-btn" onclick="resetExercise1()">Reset Exercise</button>
+                    </div>
+                </section>
+
+                <!-- EXERCISE 2: VERB CONJUGATION -->
+                <section class="exercise-section">
+                    <h2>🔤 Exercise 2: Verb Conjugation</h2>
+                    <p>Conjugate the verbs in brackets using the correct form:</p>
+
+                    <!-- Exercise 2 Item 1 -->
+                    <div class="exercise-item">
+                        <h4>Item 1</h4>
+                        <p>I wish <input type="text" id="ex2-q1" class="verb-input" placeholder="land"> <em>(land)</em> on Mars someday.</p>
+                        <button class="check-btn" onclick="checkExercise2(1)">Check Answer</button>
+                        <div id="ex2-result1" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 2 -->
+                    <div class="exercise-item">
+                        <h4>Item 2</h4>
+                        <p>If only our government <input type="text" id="ex2-q2" class="verb-input" placeholder="digitalized"> <em>(digitalized)</em> the logistic sector in the early 2000's.</p>
+                        <button class="check-btn" onclick="checkExercise2(2)">Check Answer</button>
+                        <div id="ex2-result2" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 3 -->
+                    <div class="exercise-item">
+                        <h4>Item 3</h4>
+                        <p>Children from poor families wish they <input type="text" id="ex2-q3" class="verb-input" placeholder="go"> <em>(go)</em> to school.</p>
+                        <button class="check-btn" onclick="checkExercise2(3)">Check Answer</button>
+                        <div id="ex2-result3" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 4 -->
+                    <div class="exercise-item">
+                        <h4>Item 4</h4>
+                        <p>I wish I <input type="text" id="ex2-q4" class="verb-input" placeholder="sleep"> <em>(sleep)</em> at home now.</p>
+                        <button class="check-btn" onclick="checkExercise2(4)">Check Answer</button>
+                        <div id="ex2-result4" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 2 Item 5 -->
+                    <div class="exercise-item">
+                        <h4>Item 5</h4>
+                        <p>Ages ago people wished they <input type="text" id="ex2-q5" class="verb-input" placeholder="talk"> <em>(talk)</em> to their relatives from distant lands.</p>
+                        <button class="check-btn" onclick="checkExercise2(5)">Check Answer</button>
+                        <div id="ex2-result5" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Show All Answers Button for Exercise 2 -->
+                    <div class="exercise-controls">
+                        <button class="show-all-btn" onclick="showAllAnswersEx2()">Show All Answers</button>
+                        <button class="reset-btn" onclick="resetExercise2()">Reset Exercise</button>
+                    </div>
+                </section>
+
+                <!-- EXERCISE 3: SPECIAL CASES REWRITING -->
+                <section class="exercise-section">
+                    <h2>🎯 Exercise 3: Special Cases - Desire Statements</h2>
+                    <p>Rewrite sentence B so that it means the same as sentence A using "I wish":</p>
+
+                    <!-- Exercise 3 Item 1 -->
+                    <div class="exercise-item">
+                        <h4>Item 1</h4>
+                        <p><strong>A:</strong> I want to see a world where corruption is eradicated entirely, and ethical behavior prevails.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex3-q1" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise3(1)">Check Answer</button>
+                        <div id="ex3-result1" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 2 -->
+                    <div class="exercise-item">
+                        <h4>Item 2</h4>
+                        <p><strong>A:</strong> I hope that individuals in positions of power would like to prioritize transparency and accountability.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex3-q2" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise3(2)">Check Answer</button>
+                        <div id="ex3-result2" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 3 -->
+                    <div class="exercise-item">
+                        <h4>Item 3</h4>
+                        <p><strong>A:</strong> I have a strong desire to work towards a society where we need to emphasize ethics in all aspects of life.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex3-q3" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise3(3)">Check Answer</button>
+                        <div id="ex3-result3" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 4 -->
+                    <div class="exercise-item">
+                        <h4>Item 4</h4>
+                        <p><strong>A:</strong> It's high time we addressed corruption within our organization to restore integrity.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex3-q4" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise3(4)">Check Answer</button>
+                        <div id="ex3-result4" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 5 -->
+                    <div class="exercise-item">
+                        <h4>Item 5</h4>
+                        <p><strong>A:</strong> I would like to create a culture of ethical behavior in our workplace.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex3-q5" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise3(5)">Check Answer</button>
+                        <div id="ex3-result5" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 6 -->
+                    <div class="exercise-item">
+                        <h4>Item 6</h4>
+                        <p><strong>A:</strong> We need to take immediate action against embezzlement to maintain our organization's reputation.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex3-q6" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise3(6)">Check Answer</button>
+                        <div id="ex3-result6" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 7 -->
+                    <div class="exercise-item">
+                        <h4>Item 7</h4>
+                        <p><strong>A:</strong> It's high time individuals reported any acts of bribery they witness.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex3-q7" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise3(7)">Check Answer</button>
+                        <div id="ex3-result7" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Exercise 3 Item 8 -->
+                    <div class="exercise-item">
+                        <h4>Item 8</h4>
+                        <p><strong>A:</strong> It's advisable that we united against all forms of corruption and ensure a more just and transparent society.</p>
+                        <p><strong>B:</strong> I wish <input type="text" id="ex3-q8" class="exercise-input" placeholder="Complete the sentence..."></p>
+                        <button class="check-btn" onclick="checkExercise3(8)">Check Answer</button>
+                        <div id="ex3-result8" class="exercise-result"></div>
+                    </div>
+
+                    <!-- Show All Answers Button for Exercise 3 -->
+                    <div class="exercise-controls">
+                        <button class="show-all-btn" onclick="showAllAnswersEx3()">Show All Answers</button>
+                        <button class="reset-btn" onclick="resetExercise3()">Reset Exercise</button>
+                    </div>
+                </section>
+
+                <!-- Overall Progress Section -->
+                <section class="progress-section">
+                    <h2>📊 Your Progress</h2>
+                    <div class="progress-summary">
+                        <div class="progress-item">
+                            <h4>Exercise 1: Rewriting</h4>
+                            <div class="progress-bar">
+                                <div id="progress-ex1" class="progress-fill"></div>
+                            </div>
+                            <span id="progress-text-ex1">0/8 completed</span>
+                        </div>
+                        <div class="progress-item">
+                            <h4>Exercise 2: Conjugation</h4>
+                            <div class="progress-bar">
+                                <div id="progress-ex2" class="progress-fill"></div>
+                            </div>
+                            <span id="progress-text-ex2">0/5 completed</span>
+                        </div>
+                        <div class="progress-item">
+                            <h4>Exercise 3: Special Cases</h4>
+                            <div class="progress-bar">
+                                <div id="progress-ex3" class="progress-fill"></div>
+                            </div>
+                            <span id="progress-text-ex3">0/8 completed</span>
+                        </div>
+                    </div>
+                    <div class="overall-score">
+                        <h3 id="overall-score-text">Overall Progress: 0%</h3>
+                        <button class="reset-all-btn" onclick="resetAllExercises()">Reset All Exercises</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+
+    <script>
+        // ===== EXERCISE 1: REWRITING SENTENCES =====
+        
+        // Correct answers for Exercise 1
+        const exercise1Answers = {
+            1: "corruption were eradicated from our government",
+            2: "stricter financial regulations could combat money laundering more effectively",
+            3: "people hadn't used blackmailing as a means to exploit others' vulnerabilities",
+            4: "embezzlement cases weren't more prevalent in the corporate world",
+            5: "the boss hadn't fired me last year",
+            6: "understood English language",
+            7: "enjoyed my job in this company",
+            8: "hadn't lived in a very small house with my parents"
+        };
+
+        // Track completed exercises
+        let exercise1Progress = 0;
+        let exercise2Progress = 0;
+        let exercise3Progress = 0;
+
+        function checkExercise1(questionNum) {
+            const userAnswer = document.getElementById(`ex1-q${questionNum}`).value.trim().toLowerCase();
+            const correctAnswer = exercise1Answers[questionNum].toLowerCase();
+            const resultDiv = document.getElementById(`ex1-result${questionNum}`);
+            
+            // Check for key components rather than exact match
+            const keyWords = correctAnswer.split(' ').slice(0, 3); // First 3 words are usually key
+            const hasKeyWords = keyWords.every(word => userAnswer.includes(word));
+            
+            if (hasKeyWords && userAnswer.length > 5) {
+                resultDiv.className = 'exercise-result correct';
+                resultDiv.innerHTML = '✅ Correct! Well done!';
+                updateProgress(1, 1);
+            } else {
+                resultDiv.className = 'exercise-result incorrect';
+                resultDiv.innerHTML = `❌ Incorrect. <strong>Correct answer:</strong> ${exercise1Answers[questionNum]}`;
+            }
+        }
+
+        function showAllAnswersEx1() {
+            for (let i = 1; i <= 8; i++) {
+                const resultDiv = document.getElementById(`ex1-result${i}`);
+                resultDiv.className = 'exercise-result show-answer';
+                resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise1Answers[i]}`;
+            }
+        }
+
+        function resetExercise1() {
+            for (let i = 1; i <= 8; i++) {
+                document.getElementById(`ex1-q${i}`).value = '';
+                document.getElementById(`ex1-result${i}`).innerHTML = '';
+                document.getElementById(`ex1-result${i}`).className = 'exercise-result';
+            }
+            exercise1Progress = 0;
+            updateProgress(1, 0);
+        }
+
+        // ===== EXERCISE 2: VERB CONJUGATION =====
+        
+        const exercise2Answers = {
+            1: "could land",
+            2: "had digitalized", 
+            3: "could go",
+            4: "were sleeping",
+            5: "could talk"
+        };
+
+        function checkExercise2(questionNum) {
+            const userAnswer = document.getElementById(`ex2-q${questionNum}`).value.trim().toLowerCase();
+            const correctAnswer = exercise2Answers[questionNum].toLowerCase();
+            const resultDiv = document.getElementById(`ex2-result${questionNum}`);
+            const inputElement = document.getElementById(`ex2-q${questionNum}`);
+            
+            if (userAnswer === correctAnswer || userAnswer.includes(correctAnswer.split(' ')[0])) {
+                resultDiv.className = 'exercise-result correct';
+                resultDiv.innerHTML = '✅ Correct! Perfect conjugation!';
+                inputElement.style.backgroundColor = '#d4edda';
+                inputElement.style.borderColor = '#27ae60';
+                updateProgress(2, 1);
+            } else {
+                resultDiv.className = 'exercise-result incorrect';
+                resultDiv.innerHTML = `❌ Incorrect. <strong>Correct answer:</strong> ${exercise2Answers[questionNum]}`;
+                inputElement.style.backgroundColor = '#f8d7da';
+                inputElement.style.borderColor = '#e74c3c';
+            }
+        }
+
+        function showAllAnswersEx2() {
+            for (let i = 1; i <= 5; i++) {
+                const resultDiv = document.getElementById(`ex2-result${i}`);
+                const inputElement = document.getElementById(`ex2-q${i}`);
+                resultDiv.className = 'exercise-result show-answer';
+                resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise2Answers[i]}`;
+                inputElement.value = exercise2Answers[i];
+                inputElement.style.backgroundColor = '#e8f5e8';
+            }
+        }
+
+        function resetExercise2() {
+            for (let i = 1; i <= 5; i++) {
+                const inputElement = document.getElementById(`ex2-q${i}`);
+                inputElement.value = '';
+                inputElement.style.backgroundColor = '';
+                inputElement.style.borderColor = '';
+                document.getElementById(`ex2-result${i}`).innerHTML = '';
+                document.getElementById(`ex2-result${i}`).className = 'exercise-result';
+            }
+            exercise2Progress = 0;
+            updateProgress(2, 0);
+        }
+
+        // ===== EXERCISE 3: SPECIAL CASES REWRITING =====
+        
+        const exercise3Answers = {
+            1: "I could see a world where corruption is eradicated entirely, and ethical behavior prevails",
+            2: "individuals in positions of power prioritized transparency and accountability",
+            3: "I could work towards a society where we emphasize ethics in all aspects of life",
+            4: "we addressed corruption within our organization to restore integrity", 
+            5: "I could create a culture of ethical behavior in our workplace",
+            6: "we took immediate action against embezzlement to maintain our organization's reputation",
+            7: "individuals reported any acts of bribery they witness",
+            8: "we united against all forms of corruption and ensured a more just and transparent society"
+        };
+
+        function checkExercise3(questionNum) {
+            const userAnswer = document.getElementById(`ex3-q${questionNum}`).value.trim().toLowerCase();
+            const correctAnswer = exercise3Answers[questionNum].toLowerCase();
+            const resultDiv = document.getElementById(`ex3-result${questionNum}`);
+            
+            // Check for key components
+            const keyWords = correctAnswer.split(' ').slice(0, 4); // First 4 words are usually key
+            const hasKeyWords = keyWords.some(word => userAnswer.includes(word));
+            
+            if (hasKeyWords && userAnswer.length > 10) {
+                resultDiv.className = 'exercise-result correct';
+                resultDiv.innerHTML = '✅ Good job! Your sentence structure is correct.';
+                updateProgress(3, 1);
+            } else {
+                resultDiv.className = 'exercise-result incorrect';
+                resultDiv.innerHTML = `❌ Try again. <strong>Suggested answer:</strong> ${exercise3Answers[questionNum]}`;
+            }
+        }
+
+        function showAllAnswersEx3() {
+            for (let i = 1; i <= 8; i++) {
+                const resultDiv = document.getElementById(`ex3-result${i}`);
+                resultDiv.className = 'exercise-result show-answer';
+                resultDiv.innerHTML = `📝 <strong>Answer:</strong> ${exercise3Answers[i]}`;
+            }
+        }
+
+        function resetExercise3() {
+            for (let i = 1; i <= 8; i++) {
+                document.getElementById(`ex3-q${i}`).value = '';
+                document.getElementById(`ex3-result${i}`).innerHTML = '';
+                document.getElementById(`ex3-result${i}`).className = 'exercise-result';
+            }
+            exercise3Progress = 0;
+            updateProgress(3, 0);
+        }
+
+        // ===== PROGRESS TRACKING =====
+        
+        function updateProgress(exerciseNum, increment) {
+            if (exerciseNum === 1) {
+                exercise1Progress = Math.min(exercise1Progress + increment, 8);
+                const percentage = Math.round((exercise1Progress / 8) * 100);
+                document.getElementById('progress-ex1').style.width = percentage + '%';
+                document.getElementById('progress-text-ex1').textContent = `${exercise1Progress}/8 completed`;
+            } else if (exerciseNum === 2) {
+                exercise2Progress = Math.min(exercise2Progress + increment, 5);
+                const percentage = Math.round((exercise2Progress / 5) * 100);
+                document.getElementById('progress-ex2').style.width = percentage + '%';
+                document.getElementById('progress-text-ex2').textContent = `${exercise2Progress}/5 completed`;
+            } else if (exerciseNum === 3) {
+                exercise3Progress = Math.min(exercise3Progress + increment, 8);
+                const percentage = Math.round((exercise3Progress / 8) * 100);
+                document.getElementById('progress-ex3').style.width = percentage + '%';
+                document.getElementById('progress-text-ex3').textContent = `${exercise3Progress}/8 completed`;
+            }
+            
+            updateOverallProgress();
+        }
+
+        function updateOverallProgress() {
+            const totalCompleted = exercise1Progress + exercise2Progress + exercise3Progress;
+            const totalQuestions = 8 + 5 + 8; // 21 total
+            const overallPercentage = Math.round((totalCompleted / totalQuestions) * 100);
+            
+            document.getElementById('overall-score-text').textContent = `Overall Progress: ${overallPercentage}%`;
+        }
+
+        function resetAllExercises() {
+            resetExercise1();
+            resetExercise2();
+            resetExercise3();
+        }
+
+        // ===== MOBILE MENU FUNCTIONALITY =====
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('mobile-open');
+        }
+
+        // Close sidebar when clicking on content area on mobile
+        document.querySelector('.content').addEventListener('click', function() {
+            const sidebar = document.querySelector('.sidebar');
+            if (sidebar.classList.contains('mobile-open')) {
+                sidebar.classList.remove('mobile-open');
+            }
+        });
+
+        // Add smooth hover effects to lesson links
+        document.querySelectorAll('.lesson-link').forEach(link => {
+            link.addEventListener('mouseenter', function() {
+                if (!this.style.background.includes('var(--accent-color)')) {
+                    this.style.transform = 'translateX(5px)';
+                }
+            });
+            
+            link.addEventListener('mouseleave', function() {
+                if (!this.style.background.includes('var(--accent-color)')) {
+                    this.style.transform = 'translateX(0)';
+                }
+            });
+        });
+
+        // Initialize progress on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateOverallProgress();
+        });
+    </script>
+</body>
+</html>
+                            <label class="option">
+                                <input type="radio" name="q5" value="b">
+                                had
+                            </label>
+                            <label class="option">
+                                <input type="radio" name="q5" value="c">
+                                had had
+                            </label>
+                            <label class="option">
+                                <input type="radio" name="q5" value="d">
+                                would have
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Quiz Buttons -->
+                    <div class="quiz-buttons">
+                        <button class="btn btn-primary" onclick="submitQuiz()">Submit Quiz</button>
+                        <button class="btn btn-secondary" onclick="resetQuiz()">Reset Quiz</button>
+                    </div>
+
+                    <!-- Quiz Result -->
+                    <div id="quiz-result" class="quiz-result">
+                        <h3 id="result-title"></h3>
+                        <p id="result-message"></p>
+                        <p id="result-score"></p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+
+    <script>
+        // ===== QUIZ FUNCTIONALITY =====
+        
+        // Correct answers for the quiz
+        const correctAnswers = {
+            'q1': 'b', // I wish I were rich
+            'q2': 'b', // Regret about the past
+            'q3': 'c', // weren't
+            'q4': 'b', // If only I had taken the job offer
+            'q5': 'c'  // had had
+        };
+
+        // Explanations for each question
+        const explanations = {
+            'q1': 'We use "I wish + past subjunctive (were)" to express regret about present situations.',
+            'q2': '"If only + past perfect" expresses regret about past actions or situations.',
+            'q3': 'With "wish" about present situations, we use "weren\'t" (past subjunctive) even with singular subjects.',
+            'q4': '"If only + past perfect" shows regret about a missed opportunity in the past.',
+            'q5': '"If only + past perfect (had had)" expresses regret about not having something in the past.'
+        };
+
+        function submitQuiz() {
+            let score = 0;
+            let totalQuestions = Object.keys(correctAnswers).length;
+            let incorrectQuestions = [];
+
+            // Check each question
+            for (let question in correctAnswers) {
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const questionDiv = selectedOption ? selectedOption.closest('.question') : document.querySelector(`input[name="${question}"]`).closest('.question');
+                
+                // Remove previous styling
+                questionDiv.querySelectorAll('.option').forEach(option => {
+                    option.classList.remove('correct', 'incorrect');
+                });
+
+                if (selectedOption) {
+                    const userAnswer = selectedOption.value;
+                    const correctAnswer = correctAnswers[question];
+                    
+                    if (userAnswer === correctAnswer) {
+                        score++;
+                        selectedOption.closest('.option').classList.add('correct');
+                    } else {
+                        selectedOption.closest('.option').classList.add('incorrect');
+                        // Highlight the correct answer
+                        const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                        correctOption.closest('.option').classList.add('correct');
+                        incorrectQuestions.push(question);
+                    }
+                } else {
+                    // No answer selected - highlight correct answer
+                    const correctAnswer = correctAnswers[question];
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    correctOption.closest('.option').classList.add('correct');
+                    incorrectQuestions.push(question);
+                }
+            }
+
+            // Display results
+            displayResults(score, totalQuestions, incorrectQuestions);
+        }
+
+        function displayResults(score, total, incorrect) {
+            const resultDiv = document.getElementById('quiz-result');
+            const titleElement = document.getElementById('result-title');
+            const messageElement = document.getElementById('result-message');
+            const scoreElement = document.getElementById('result-score');
+            
+            const percentage = Math.round((score / total) * 100);
+            
+            // Set score
+            scoreElement.textContent = `Your Score: ${score}/${total} (${percentage}%)`;
+            
+            // Set message based on performance
+            if (percentage >= 80) {
+                resultDiv.className = 'quiz-result success';
+                titleElement.textContent = '🎉 Excellent Work!';
+                messageElement.textContent = 'You have a great understanding of "I wish" and "If only" constructions!';
+            } else if (percentage >= 60) {
+                resultDiv.className = 'quiz-result warning';
+                titleElement.textContent = '👍 Good Job!';
+                messageElement.textContent = 'You\'re on the right track! Review the explanations and try again to improve your score.';
+            } else {
+                resultDiv.className = 'quiz-result error';
+                titleElement.textContent = '📚 Keep Studying!';
+                messageElement.textContent = 'Don\'t worry! Review the PDF explanation carefully and try the quiz again. Practice makes perfect!';
+            }
+            
+            resultDiv.style.display = 'block';
+            
+            // Scroll to results
+            resultDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function resetQuiz() {
+            // Clear all radio button selections
+            document.querySelectorAll('input[type="radio"]').forEach(radio => {
+                radio.checked = false;
+            });
+            
+            // Remove all styling from options
+            document.querySelectorAll('.option').forEach(option => {
+                option.classList.remove('correct', 'incorrect');
+            });
+            
+            // Hide results
+            document.getElementById('quiz-result').style.display = 'none';
+            
+            // Scroll back to top of quiz
+            document.querySelector('.quiz-section h2').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // ===== MOBILE MENU FUNCTIONALITY =====
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('mobile-open');
+        }
+
+        // Close sidebar when clicking on content area on mobile
+        document.querySelector('.content').addEventListener('click', function() {
+            const sidebar = document.querySelector('.sidebar');
+            if (sidebar.classList.contains('mobile-open')) {
+                sidebar.classList.remove('mobile-open');
+            }
+        });
+
+        // ===== ENHANCED USER EXPERIENCE =====
+        
+        // Add smooth hover effects to lesson links
+        document.querySelectorAll('.lesson-link').forEach(link => {
+            link.addEventListener('mouseenter', function() {
+                if (!this.style.background.includes('var(--accent-color)')) {
+                    this.style.transform = 'translateX(5px)';
+                }
+            });
+            
+            link.addEventListener('mouseleave', function() {
+                if (!this.style.background.includes('var(--accent-color)')) {
+                    this.style.transform = 'translateX(0)';
+                }
+            });
+        });
+
+        // Add click effect to quiz options
+        document.querySelectorAll('.option').forEach(option => {
+            option.addEventListener('click', function() {
+                // Remove selection from other options in the same question
+                const questionDiv = this.closest('.question');
+                questionDiv.querySelectorAll('.option').forEach(opt => {
+                    opt.style.transform = 'scale(1)';
+                });
+                
+                // Add selection effect to clicked option
+                this.style.transform = 'scale(1.02)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 150);
+            });
+        });
+
+        // Progress tracking (you can expand this)
+        let quizAttempts = 0;
+        
+        function trackProgress() {
+            quizAttempts++;
+            console.log(`Quiz attempt #${quizAttempts} for Lesson 1`);
+            // You can add more sophisticated tracking here
+        }
+
+        // Call trackProgress when quiz is submitted
+        const originalSubmitQuiz = submitQuiz;
+        submitQuiz = function() {
+            trackProgress();
+            originalSubmitQuiz();
+        };
+    </script>
+</body>
+</html>
